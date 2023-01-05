@@ -31,6 +31,6 @@ ENV LD_PRELOAD /usr/local/lib/curl-impersonate/libcurl-impersonate-ff.so
 
 ENV CURL_IMPERSONATE ff91esr
 
-EXPOSE 3000
+EXPOSE 3001
 
 ENTRYPOINT ["/app/docker-entrypoint.sh"]
