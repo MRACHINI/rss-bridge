@@ -5,5 +5,5 @@ services:
     volumes:
       - /tmp/rss-bridge/config:/config
     ports:
-      - 3001:80
+      - 3000:80
     restart: unless-stopped
